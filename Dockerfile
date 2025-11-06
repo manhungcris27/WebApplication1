@@ -1,11 +1,10 @@
-FROM tomcat:10.1-jdk17
+FROM tomcat:9.0-jdk17
 
-# Xóa ứng dụng mẫu mặc định
+# Xóa app mặc định của Tomcat
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-# Copy file WAR sau khi build
+# Copy file WAR đã build ra làm ROOT
 COPY ./dist/WebApplication1.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
-
 CMD ["catalina.sh", "run"]
