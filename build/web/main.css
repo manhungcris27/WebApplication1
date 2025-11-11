@@ -40,3 +40,18 @@ br {
 
 input[type="submit"] {
     margin-top: 1em;
+    padding: 6px 14px;
+    background-color: teal;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #006666;
+}
+
+img {
+    margin-bottom: 20px;
+}
