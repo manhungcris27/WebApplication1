@@ -13,33 +13,51 @@
 </head>
 
 <body>
+    <img src="logo.png" alt="Murach Logo" style="width:120px; margin-bottom:20px;">
 
-<h1>Join our email list</h1>
+<h2>Survey</h2>
+<p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
 
-<p>To join our email list, enter your name and
+<h3>Your information:</h3>
 
-email address below.</p>
 <form action="emailList" method="post">
+    <input type="hidden" name="action" value="add">
 
-<input type="hidden" name="action" value="add">
+    <label>First Name</label>
+    <input type="text" name="firstName" required><br><br>
 
-<label>Email:</label>
+    <label>Last Name</label>
+    <input type="text" name="lastName" required><br><br>
 
-<input type="email" name="email" required><br>
+    <label>Email</label>
+    <input type="email" name="email" required><br><br>
 
-<label>First Name: </label>
+    <label>Date of Birth</label>
+    <input type="date" name="dob"><br><br>
 
-<input type="text" name="firstName" required><br>
+    <h3>How did you hear about us?</h3>
+    <input type="radio" name="hear" value="search_engine" checked> Search engine
+    <input type="radio" name="hear" value="word_of_mouth"> Word of mouth
+    <input type="radio" name="hear" value="social_media"> Social Media
+    <input type="radio" name="hear" value="other"> Other
+    <br><br>
 
-<label>Last Name: </label>
+    <h3>Would you like to receive announcements about new CDs and special offers?</h3>
+    <input type="checkbox" name="receive_cds" value="yes1"> YES, I'd like that.<br>
+    <input type="checkbox" name="receive_email" value="yes2"> YES, please send me email announcements.
+    <br><br>
 
-<input type="text" name="lastName" required><br>
+    <label>Please contact me by: </label>
+    <select name="contact_method">
+        <option value="email_or_postal">Email or postal mail</option>
+        <option value="email_only">Email only</option>
+        <option value="postal_only">Postal mail only</option>
+    </select>
+    <br><br>
 
-<label>&nbsp;</label>
-
-<input type="submit" value="Join Now" id="submit">
-
+    <input type="submit" value="Submit">
 </form>
+
 
 </body>
 

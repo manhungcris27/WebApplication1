@@ -27,18 +27,37 @@ public class EmailListServlet extends HttpServlet {
             url = "/index.html";   // trang form
         }
         else if (action.equals("add")) {
-            // get data from form
-            String firstName = request.getParameter("firstName");
-            String lastName = request.getParameter("lastName");
-            String email = request.getParameter("email");
+    // get data from form
+    String firstName = request.getParameter("firstName");
+    String lastName = request.getParameter("lastName");
+    String email = request.getParameter("email");
+    String dob = request.getParameter("dob");
+    String hear = request.getParameter("hear");
+    String receiveCDs = request.getParameter("receive_cds");
+    String receiveEmails = request.getParameter("receive_email");
+    String contactMethod = request.getParameter("contact_method");
 
-            // save to User object & DB
-            User user = new User(firstName, lastName, email);
-            UserDB.insert(user);
+    // create User object
+    User user = new User();
+    user.setFirstName(firstName);
+    user.setLastName(lastName);
+    user.setEmail(email);
+    user.setDob(dob);
+    user.setHear(hear);
+    user.setReceiveCDs(receiveCDs != null ? "Yes" : "No");
+    user.setReceiveEmails(receiveEmails != null ? "Yes" : "No");
+    user.setContactMethod(contactMethod);
 
-            request.setAttribute("user", user);
-            url = "/thanks.jsp";   // chuyển sang trang cảm ơn
-        }
+    // save to DB (optional, nếu không cần thì bỏ)
+    UserDB.insert(user);
+
+    // store user in request to display on thanks page
+    request.setAttribute("user", user);
+
+    // chuyển sang trang cảm ơn
+    url = "/thanks.jsp";
+}
+
 
         // forward to page
         getServletContext()
