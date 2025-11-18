@@ -2,11 +2,12 @@ package murach.email;
 
 import java.io.*;
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 
 import murach.business.User;
 import murach.data.UserDB;
-
+@WebServlet("/emailList")
 public class EmailListServlet extends HttpServlet {
 
     @Override

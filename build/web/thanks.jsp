@@ -39,7 +39,7 @@
 
 <p>To submit another response, click Back or use the Return button below.</p>
 
-<form action="" method="get">
+<form action="emailList" method="post">
     <input type="hidden" name="action" value="join">
     <input type="submit" value="Return">
 </form>
