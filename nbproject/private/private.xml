@@ -6,7 +6,7 @@
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/main.css</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/WEB-INF/web.xml</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/email/EmailListServlet.java</file>
-            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/emailList.html</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/emailListtt.html</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/conf/MANIFEST.MF</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/email/TestServlet.java</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/test.jsp</file>
@@ -14,9 +14,18 @@
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/business/User.java</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/survey.jsp</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/email/SurveyServlet.java</file>
-            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/index.html</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/survey.html</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/data/UserDB.java</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/business/UserSurvey.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/thanks.jsp</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/email/CartServlet.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/products.jsp</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/cart.jsp</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/business/Cart.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/business/Product.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/data/ProductIO.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/business/LineItem.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/WEB-INF/products.txt</file>
         </group>
     </open-files>
 </project-private>
