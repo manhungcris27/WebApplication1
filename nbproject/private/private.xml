@@ -26,6 +26,12 @@
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/data/ProductIO.java</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/business/LineItem.java</file>
             <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/WEB-INF/products.txt</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/index.jsp</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/register.jsp</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/web/8601_download.jsp</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/email/DownloadServlet.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/data/UserIO.java</file>
+            <file>file:/D:/UNIVERSITY/ki1_nam3/Antoanthongtin/WebApplication1/src/java/murach/util/CookieUtil.java</file>
         </group>
     </open-files>
 </project-private>
